@@ -6,7 +6,8 @@ $host = ""; // Your MySQLi server
 $user = ""; // Your MySQLi user
 $pass = ""; // Your MySQLi password
 $db = ""; // Your MySQLi database
-if(mysqli_connect($host, $user, $pass, $db))
+$connect = mysqli_connect($host, $user, $pass, $db);
+if($connect)
 {
     // connection is successful, we can do anything
 }
