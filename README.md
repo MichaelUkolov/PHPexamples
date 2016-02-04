@@ -3,4 +3,4 @@ Examples PHP-scrips for beginners
 
 Files:
 
-MySQLi_example.php - example for connection MySQLi
+MySQLi_connect.php - example for connection MySQLi
